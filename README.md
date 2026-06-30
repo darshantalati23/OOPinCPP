@@ -85,6 +85,51 @@ Stored dynamically as **pointer**.
 
 ![image](./assets/perfect_encapsulation.png)
 
+## Inheritance
+
+### Theory
+
+- Child inherits attrivutes and behaviours from Parent
+- Way to create _class_ from existing _class_
+- _Derived/Child/Sub_ classinherits from _Base/Parent/Super_ class
+- _Protected_ can be accessed by sub-classes
+
+### Access Specifier - Protected
+
+![image](./assets/protected_members.png)
+
+**Question:** What _scope_ of attributes of parents will be inherited to child class and with what _scope_?
+
+![image](./assets/mode_of_inheritance.png)
+
+### When to Use?
+
+- **IS-A** relationship
+- Hierarchical relationship
+- Specialised-Generalized connection
+
+### Types
+
+C++ supports several types of inheritance:
+
+- **Single Inheritance**: A derived class with only one base class.
+- **Multiple Inheritance**: A derived class with multiple base classes.
+- **Multilevel Inheritance**: A class derived from another derived class.
+- **Hierarchical Inheritance**: Multiple classes derived from a single base class.
+- **Hybrid Inheritance**: A combination of two or more types of inheritance.
+
+![image](./assets/types_of_inheritance.png)
+
+### Importance
+
+- **Code Reusability**: Avoids redundancy by enabling child classes to reuse methods and properties of parent classes.
+- **Extensibility**: Easy to extend existing code for new requirements.
+- **Maintenance**: Simplified adjustments with changes concentrated in base classe
+
+### Example
+
+![image](./assets/inheritance_vehicle.png)
+
 ---
 
 ### With God's Grace
